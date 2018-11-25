@@ -6,7 +6,7 @@ def hello():
     return "<h1 style='color:blue'>This is a test page from Flask Python</h1>"
 
 @app.route("/testpath/")
-def hello():
+def hello2():
     return "<h1 style='color:blue'>This message is from the test path</h1>"
 
 if __name__ == "__main__":
